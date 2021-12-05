@@ -7837,14 +7837,7 @@ with openapi_client.ApiClient() as api_client:
                 ),
             ),
             status=IoArgoprojWorkflowV1alpha1CronWorkflowStatus(
-                conditions=[
-                    IoArgoprojWorkflowV1alpha1Condition(
-                        message="message_example",
-                        status="status_example",
-                        type="type_example",
-                    ),
-                ],
-                last_scheduled_time=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                last_scheduled_time={},
             ),
         ),
         namespace="namespace_example",
@@ -15868,14 +15861,7 @@ with openapi_client.ApiClient() as api_client:
                 ),
             ),
             status=IoArgoprojWorkflowV1alpha1CronWorkflowStatus(
-                conditions=[
-                    IoArgoprojWorkflowV1alpha1Condition(
-                        message="message_example",
-                        status="status_example",
-                        type="type_example",
-                    ),
-                ],
-                last_scheduled_time=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                last_scheduled_time={},
             ),
         ),
         namespace="namespace_example",
@@ -23971,14 +23957,7 @@ with openapi_client.ApiClient() as api_client:
                 ),
             ),
             status=IoArgoprojWorkflowV1alpha1CronWorkflowStatus(
-                conditions=[
-                    IoArgoprojWorkflowV1alpha1Condition(
-                        message="message_example",
-                        status="status_example",
-                        type="type_example",
-                    ),
-                ],
-                last_scheduled_time=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                last_scheduled_time={},
             ),
         ),
         name="name_example",
