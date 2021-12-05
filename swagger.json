@@ -9163,7 +9163,7 @@
       "properties": {
         "active": {
           "description": "Active is a list of active workflows stemming from this CronWorkflow",
-          "type": "array",
+          "type": ["array", "null"],
           "items": {
             "$ref": "#/definitions/ObjectReference"
           }

@@ -31,9 +31,7 @@ from openapi_client.exceptions import ApiAttributeError
 
 def lazy_import():
     from openapi_client.model.io_argoproj_workflow_v1alpha1_condition import IoArgoprojWorkflowV1alpha1Condition
-    from openapi_client.model.object_reference import ObjectReference
     globals()['IoArgoprojWorkflowV1alpha1Condition'] = IoArgoprojWorkflowV1alpha1Condition
-    globals()['ObjectReference'] = ObjectReference
 
 
 class IoArgoprojWorkflowV1alpha1CronWorkflowStatus(ModelNormal):
@@ -89,7 +87,6 @@ class IoArgoprojWorkflowV1alpha1CronWorkflowStatus(ModelNormal):
         """
         lazy_import()
         return {
-            'active': ([ObjectReference],),  # noqa: E501
             'conditions': ([IoArgoprojWorkflowV1alpha1Condition],),  # noqa: E501
             'last_scheduled_time': (datetime,),  # noqa: E501
         }
@@ -100,7 +97,6 @@ class IoArgoprojWorkflowV1alpha1CronWorkflowStatus(ModelNormal):
 
 
     attribute_map = {
-        'active': 'active',  # noqa: E501
         'conditions': 'conditions',  # noqa: E501
         'last_scheduled_time': 'lastScheduledTime',  # noqa: E501
     }
@@ -112,11 +108,10 @@ class IoArgoprojWorkflowV1alpha1CronWorkflowStatus(ModelNormal):
 
     @classmethod
     @convert_js_args_to_python_args
-    def _from_openapi_data(cls, active, conditions, last_scheduled_time, *args, **kwargs):  # noqa: E501
+    def _from_openapi_data(cls, conditions, last_scheduled_time, *args, **kwargs):  # noqa: E501
         """IoArgoprojWorkflowV1alpha1CronWorkflowStatus - a model defined in OpenAPI
 
         Args:
-            active ([ObjectReference]): Active is a list of active workflows stemming from this CronWorkflow
             conditions ([IoArgoprojWorkflowV1alpha1Condition]): Conditions is a list of conditions the CronWorkflow may have
             last_scheduled_time (datetime): Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.
 
@@ -178,7 +173,6 @@ class IoArgoprojWorkflowV1alpha1CronWorkflowStatus(ModelNormal):
         self._configuration = _configuration
         self._visited_composed_classes = _visited_composed_classes + (self.__class__,)
 
-        self.active = active
         self.conditions = conditions
         self.last_scheduled_time = last_scheduled_time
         for var_name, var_value in kwargs.items():
@@ -201,11 +195,10 @@ class IoArgoprojWorkflowV1alpha1CronWorkflowStatus(ModelNormal):
     ])
 
     @convert_js_args_to_python_args
-    def __init__(self, active, conditions, last_scheduled_time, *args, **kwargs):  # noqa: E501
+    def __init__(self, conditions, last_scheduled_time, *args, **kwargs):  # noqa: E501
         """IoArgoprojWorkflowV1alpha1CronWorkflowStatus - a model defined in OpenAPI
 
         Args:
-            active ([ObjectReference]): Active is a list of active workflows stemming from this CronWorkflow
             conditions ([IoArgoprojWorkflowV1alpha1Condition]): Conditions is a list of conditions the CronWorkflow may have
             last_scheduled_time (datetime): Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.
 
@@ -265,7 +258,6 @@ class IoArgoprojWorkflowV1alpha1CronWorkflowStatus(ModelNormal):
         self._configuration = _configuration
         self._visited_composed_classes = _visited_composed_classes + (self.__class__,)
 
-        self.active = active
         self.conditions = conditions
         self.last_scheduled_time = last_scheduled_time
         for var_name, var_value in kwargs.items():

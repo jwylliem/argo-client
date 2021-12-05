@@ -7837,17 +7837,6 @@ with openapi_client.ApiClient() as api_client:
                 ),
             ),
             status=IoArgoprojWorkflowV1alpha1CronWorkflowStatus(
-                active=[
-                    ObjectReference(
-                        api_version="api_version_example",
-                        field_path="field_path_example",
-                        kind="kind_example",
-                        name="name_example",
-                        namespace="namespace_example",
-                        resource_version="resource_version_example",
-                        uid="uid_example",
-                    ),
-                ],
                 conditions=[
                     IoArgoprojWorkflowV1alpha1Condition(
                         message="message_example",
@@ -15879,17 +15868,6 @@ with openapi_client.ApiClient() as api_client:
                 ),
             ),
             status=IoArgoprojWorkflowV1alpha1CronWorkflowStatus(
-                active=[
-                    ObjectReference(
-                        api_version="api_version_example",
-                        field_path="field_path_example",
-                        kind="kind_example",
-                        name="name_example",
-                        namespace="namespace_example",
-                        resource_version="resource_version_example",
-                        uid="uid_example",
-                    ),
-                ],
                 conditions=[
                     IoArgoprojWorkflowV1alpha1Condition(
                         message="message_example",
@@ -23993,17 +23971,6 @@ with openapi_client.ApiClient() as api_client:
                 ),
             ),
             status=IoArgoprojWorkflowV1alpha1CronWorkflowStatus(
-                active=[
-                    ObjectReference(
-                        api_version="api_version_example",
-                        field_path="field_path_example",
-                        kind="kind_example",
-                        name="name_example",
-                        namespace="namespace_example",
-                        resource_version="resource_version_example",
-                        uid="uid_example",
-                    ),
-                ],
                 conditions=[
                     IoArgoprojWorkflowV1alpha1Condition(
                         message="message_example",
