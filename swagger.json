@@ -11800,7 +11800,7 @@
         },
         "finishedAt": {
           "description": "Time at which this workflow completed",
-          "$ref": "#/definitions/Time"
+          "$ref": "#/definitions/TimeNullable"
         },
         "message": {
           "description": "A human readable message indicating details about why the workflow is in this condition.",
@@ -11846,7 +11846,7 @@
         },
         "startedAt": {
           "description": "Time at which this workflow started",
-          "$ref": "#/definitions/Time"
+          "$ref": "#/definitions/TimeNullable"
         },
         "storedTemplates": {
           "description": "StoredTemplates is a mapping between a template ref and the node's status.",
@@ -15071,6 +15071,11 @@
     "Time": {
       "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.",
       "type": "string",
+      "format": "date-time"
+    },
+    "TimeNullable": {
+      "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.",
+      "type": ["string", "null"],
       "format": "date-time"
     },
     "io.k8s.apimachinery.pkg.util.intstr.IntOrString": {

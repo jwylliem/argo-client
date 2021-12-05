@@ -7918,7 +7918,7 @@ with openapi_client.ApiClient() as api_client:
                     ),
                 ],
                 estimated_duration=1,
-                finished_at=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                finished_at={},
                 message="message_example",
                 nodes={
                     "key": IoArgoprojWorkflowV1alpha1NodeStatus(
@@ -8817,7 +8817,7 @@ with openapi_client.ApiClient() as api_client:
                 resources_duration={
                     "key": 1,
                 },
-                started_at=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                started_at={},
                 stored_templates={
                     "key": IoArgoprojWorkflowV1alpha1Template(
                         active_deadline_seconds="active_deadline_seconds_example",
@@ -28024,7 +28024,7 @@ with openapi_client.ApiClient() as api_client:
                     ),
                 ],
                 estimated_duration=1,
-                finished_at=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                finished_at={},
                 message="message_example",
                 nodes={
                     "key": IoArgoprojWorkflowV1alpha1NodeStatus(
@@ -28923,7 +28923,7 @@ with openapi_client.ApiClient() as api_client:
                 resources_duration={
                     "key": 1,
                 },
-                started_at=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                started_at={},
                 stored_templates={
                     "key": IoArgoprojWorkflowV1alpha1Template(
                         active_deadline_seconds="active_deadline_seconds_example",
