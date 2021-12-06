@@ -53,7 +53,7 @@ with openapi_client.ApiClient() as api_client:
                     "key": "key_example",
                 },
                 cluster_name="cluster_name_example",
-                creation_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                creation_timestamp={},
                 deletion_grace_period_seconds=1,
                 deletion_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
                 finalizers=[
@@ -7400,7 +7400,7 @@ with openapi_client.ApiClient() as api_client:
                                 "key": "key_example",
                             },
                             cluster_name="cluster_name_example",
-                            creation_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                            creation_timestamp={},
                             deletion_grace_period_seconds=1,
                             deletion_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
                             finalizers=[
@@ -7782,7 +7782,7 @@ with openapi_client.ApiClient() as api_client:
                         "key": "key_example",
                     },
                     cluster_name="cluster_name_example",
-                    creation_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                    creation_timestamp={},
                     deletion_grace_period_seconds=1,
                     deletion_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
                     finalizers=[
@@ -8064,7 +8064,7 @@ with openapi_client.ApiClient() as api_client:
                     "key": "key_example",
                 },
                 cluster_name="cluster_name_example",
-                creation_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                creation_timestamp={},
                 deletion_grace_period_seconds=1,
                 deletion_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
                 finalizers=[
@@ -15411,7 +15411,7 @@ with openapi_client.ApiClient() as api_client:
                                 "key": "key_example",
                             },
                             cluster_name="cluster_name_example",
-                            creation_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                            creation_timestamp={},
                             deletion_grace_period_seconds=1,
                             deletion_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
                             finalizers=[
@@ -15793,7 +15793,7 @@ with openapi_client.ApiClient() as api_client:
                         "key": "key_example",
                     },
                     cluster_name="cluster_name_example",
-                    creation_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                    creation_timestamp={},
                     deletion_grace_period_seconds=1,
                     deletion_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
                     finalizers=[
@@ -15993,7 +15993,7 @@ with openapi_client.ApiClient() as api_client:
                     "key": "key_example",
                 },
                 cluster_name="cluster_name_example",
-                creation_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                creation_timestamp={},
                 deletion_grace_period_seconds=1,
                 deletion_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
                 finalizers=[
@@ -23340,7 +23340,7 @@ with openapi_client.ApiClient() as api_client:
                                 "key": "key_example",
                             },
                             cluster_name="cluster_name_example",
-                            creation_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                            creation_timestamp={},
                             deletion_grace_period_seconds=1,
                             deletion_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
                             finalizers=[
@@ -23722,7 +23722,7 @@ with openapi_client.ApiClient() as api_client:
                         "key": "key_example",
                     },
                     cluster_name="cluster_name_example",
-                    creation_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
+                    creation_timestamp={},
                     deletion_grace_period_seconds=1,
                     deletion_timestamp=dateutil_parser('1970-01-01T00:00:00.00Z'),
                     finalizers=[
